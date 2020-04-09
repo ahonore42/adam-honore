@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Alice', serif;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #5d4954;
+}
+
+h2 {
+    color: #ddd;
+    text-shadow: 0px 0px 5px black;
+}
+
+.logo {
+    color: #ddd;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.navlinks li {
+    list-style: none;
+}
+
+.navlinks a{
+    color: #ddd;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.lineboi {
+    display: none;
+    cursor: pointer;
+}
+
+.lineboi div {
+    width: 25px;
+    height: 2px;
+    background-color: #ddd;
+    margin: 6px;
+    transition: all 0.3s ease;
+}
+
+.whyudodis {
+    width: 400px;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid #ddd;
+}
+
+p {
+    color: #ddd;
+    text-shadow: 0px 0px 5px black;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+
+@media screen and (min-width: 1240px) {
+    body {
+        overflow-x: hidden;
+        background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapersite.com%2Fimages%2Fwallpapers%2Ffractal-2560x1440-red-surface-4k-8k-9309.jpg&f=1&nofb=1');
+        background-size: cover;
+        
+    }
+    .navlinks {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        opacity: 0.95;
+    }
+
+    .navlinks li {
+        opacity: 0;
+    }
+
+    .lineboi {
+        display: block;
+    }
+
+    .head {
+        margin: 40px auto;
+        width: 400px;
+    }
+
+    .head h1 {
+        color: #ddd;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 0px 0px 10px black;
+    }
+
+    .me1 {
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+        border: 5px solid black;
+    }
+
+    .hello {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .me2 {
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+        border: 5px solid black;
+    }
+
+    .world {
+        width: 300px;
+        margin: 0 auto;
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1240px) {
+    body {
+        overflow-x: hidden;
+        background: url('https://i.pinimg.com/originals/37/5e/53/375e53e066eb688fd8848cfdfecdcdf4.jpg');
+        background-size: cover;
+    }
+    .navlinks {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        opacity: 0.9;
+    }
+
+    .navlinks li {
+        opacity: 0;
+    }
+
+    .lineboi {
+        display: block;
+    }
+
+    .head {
+        margin: 40px auto;
+        width: 400px;
+    }
+
+    .head h1 {
+        color: #ddd;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 0px 0px 10px black;
+    }
+
+    .me1 {
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+        border: 5px solid black;
+    }
+
+    .hello {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .me2 {
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+        border: 5px solid black;
+    }
+
+    .world {
+        width: 300px;
+        margin: 0 auto;
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        background: url('https://www.creativeboom.com/uploads/articles/03/03733270bbaaf6419fd2e4eceb75d4a18dd225d5_1100.jpg');
+        background-size: cover;
+    }
+    .navlinks {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        opacity: 1;
+    }
+
+    .navlinks li {
+        opacity: 0;
+    }
+
+    .lineboi {
+        display: block;
+    }
+
+    .head {
+        margin: 40px auto;
+        width: 400px;
+    }
+
+    .head h1 {
+        color: #ddd;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 0px 0px 10px black;
+    }
+
+    .me1 {
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+        border: 5px solid black;
+    }
+
+    .hello {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .me2 {
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+        border: 5px solid black;
+    }
+
+    .world {
+        width: 300px;
+        margin: 0 auto;
+        display: none;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(0px, 6px);
+}
+
+.toggle .line2 {
+    display: none;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(0px, -6px);
+}
+
